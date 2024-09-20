@@ -52,7 +52,7 @@ nav ul li a {
     position: relative;
 }
 
-a:before {
+nav a:before {
     content: "";
     position: absolute;
     bottom: -7px;
@@ -63,7 +63,7 @@ a:before {
     transition: width .3s ease;
 }
 
-a:hover:before {
+nav a:hover:before {
     width: 100%;
 }
 
